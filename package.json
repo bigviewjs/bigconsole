@@ -1,12 +1,12 @@
 {
-  "name": "vconsole",
-  "version": "2.5.2",
+  "name": "bigconsole",
+  "version": "1.0.0",
   "description": "A lightweight, extendable front-end developer tool for mobile web page.",
-  "homepage": "https://github.com/WechatFE/vConsole",
-  "main": "dist/vconsole.min.js",
+  "homepage": "https://github.com/i5ting/bigconsole",
+  "main": "dist/bigconsole.min.js",
   "scripts": {
     "test": "mocha",
-    "dist": "webpack && mv dist/vconsole.min.js ../BigView/examples/public"
+    "dist": "webpack && mv dist/bigconsole.min.js ../BigView/examples/public"
   },
   "keywords": [
     "console",
@@ -15,7 +15,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/WechatFE/vConsole.git"
+    "url": "git+https://github.com/i5ting/bigconsole.git"
   },
   "dependencies": {},
   "devDependencies": {

@@ -5,12 +5,12 @@ var ExtractTextPlugin = require('extract-text-webpack-plugin');
 module.exports = {
   devtool: false,
   entry: {
-    vconsole : './src/vconsole.js'
+    vconsole : './src/bigconsole.js'
   },
   output: {
     path: './dist',
     filename: '[name].min.js',
-    library: 'vConsole',
+    library: 'bigconsole',
     libraryTarget: 'umd',
     umdNameDefine: true
   },
