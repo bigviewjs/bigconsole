@@ -9,7 +9,7 @@ module.exports = {
   },
   output: {
     path: './dist',
-    filename: '[name].min.js',
+    filename: 'bigconsole.min.js',
     library: 'bigconsole',
     libraryTarget: 'umd',
     umdNameDefine: true
